@@ -5,7 +5,5 @@ class EmpleadoPorHora(val horasTrabajadas: Double, val tarifaPorHora: Double, no
 
     }
 
-    override fun toString(): String {
-        return super.toString() + " tiene un salario de ${"%.2f".format(calcularSalario())} al mes."
-    }
+
 }
